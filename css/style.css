@@ -1,6 +1,7 @@
 body{
     font-family: Calibri;
     background-image: url("../img/Recurso1.png");
+    box-sizing: border-box;
 }
 
 .Ffont{
@@ -45,7 +46,6 @@ span > p{
     display: block;
 }
 
-
 .card{
     margin-left: 10px;
     margin-right: 10px;
@@ -86,4 +86,22 @@ div > img{
 .equipo{
     text-decoration: none;
     color: #00324d;
+}
+
+
+div > img{
+    margin: 0px;
+    /* position: relative; */
+}
+
+.carousel-inner{
+    /* position: fixed; */
+}
+
+.mod{
+    background-color: #fff; 
+    position: absolute;
+    left: 700px;
+    top: 700px;
+    z-index: 2px;
 }
