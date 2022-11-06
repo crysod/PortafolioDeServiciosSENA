@@ -2,10 +2,11 @@ body{
     font-family: Calibri;
     background-image: url("../img/Recurso1.png");
     box-sizing: border-box;
+    background-size: contain;
 }
 
 .Ffont{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family: 'Work Sans', sans-serif;
 }
 
 .bg{
@@ -13,6 +14,7 @@ body{
 }
 
 .navbar-nav >li > a{
+    font-family: 'Work Sans', sans-serif;
     color: #fff;
 }
 
@@ -21,10 +23,12 @@ body{
 }
 
 span > strong{
+    font-family: 'Work Sans', sans-serif;
     font-size: 24px;
 }
 
 span > p{
+    font-family: 'Calibri', sans-serif;
     background-color: #39a900;
     color: white;
     border-radius: 8px;
@@ -44,21 +48,6 @@ span > p{
 
 .dropdown-menu>li:hover>.submenu{
     display: block;
-}
-
-.card{
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-div >.fig{
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-div > img{
-    margin-top: 10px;
-    margin-right: 10px;
 }
 
 .bT{
@@ -88,20 +77,28 @@ div > img{
     color: #00324d;
 }
 
-
-div > img{
-    margin: 0px;
-    /* position: relative; */
-}
-
-.carousel-inner{
-    /* position: fixed; */
-}
-
 .mod{
     background-color: #fff; 
     position: absolute;
     left: 700px;
     top: 700px;
     z-index: 2px;
+}
+
+.modal-title{
+    color: #00324d;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.cont{
+    overflow: hidden;
+}
+
+.card-img-top{
+    transition: 0.5;
+    object-fit: cover;
+}
+
+.card-img-top:hover{
+    transform: scale(1.2);
 }
