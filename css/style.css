@@ -2,7 +2,7 @@ body{
     font-family: Calibri;
     background-image: url("../img/Recurso1.png");
     box-sizing: border-box;
-    background-size: contain;
+    /* background-size: contain; */
 }
 
 .Ffont{
@@ -77,14 +77,6 @@ span > p{
     color: #00324d;
 }
 
-.mod{
-    background-color: #fff; 
-    position: absolute;
-    left: 700px;
-    top: 700px;
-    z-index: 2px;
-}
-
 .modal-title{
     color: #00324d;
     font-family: 'Work Sans', sans-serif;
@@ -96,9 +88,142 @@ span > p{
 
 .card-img-top{
     transition: 0.5;
+    transition: transform 400ms;
     object-fit: cover;
 }
 
 .card-img-top:hover{
     transform: scale(1.2);
+}
+
+tool-tip{
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+    user-select: none;
+
+    text-shadow: #7c7c7c 1px 0 10px;
+
+    padding: .5rem 1rem;
+    font-size: 24px;
+    border-radius: 8px;
+
+    /* top: 100%; */
+    left: 15.5%;
+
+    opacity: 0;
+    transition: opacity .3s ease-overflow;
+}
+
+:has(> tool-tip){
+    position: relative;
+}
+
+:has(> tool-tip):hover tool-tip{
+    opacity: 1;
+}
+
+tool-tip .tooltip{
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+    user-select: none;
+
+    text-shadow: #7c7c7c 1px 0 10px;
+
+    padding: .5rem 1rem;
+    font-size: 24px;
+    border-radius: 8px;
+
+    opacity: 0;
+    transition: opacity .3s ease-overflow;
+}
+
+:has(> tool-tip){
+    position: relative;
+}
+
+:has(> tool-tip):hover tool-tip{
+    opacity: 1;
+}
+
+.carousel img{
+    width: 100%;
+    height: auto;
+}
+
+.carousel{
+    position: relative;
+    background-size: cover;
+    -webkit-backdrop-size: cover;
+    -moz-background-size: cover;
+    -moz-background-size: cover;
+}
+
+.carousel .carousel-inner{
+    overflow: hidden;
+}
+
+.carousel .carousel-inner .mod1{
+    /* background-color: #fff;  */
+    position: absolute;
+    left: 720px;
+    top: 700px;
+    z-index: 2px;
+}
+
+.carousel .carousel-inner .mod2{
+    /* background-color: #fff;  */
+    position: absolute;
+    left: 20px;
+    top: 780px;
+    z-index: 2px;
+}
+
+.carousel .carousel-inner .mod2-2{
+    /* background-color: #fff;  */
+    position: absolute;
+    left: 1000px;
+    top: 570px;
+    z-index: 2px;
+}
+
+.carousel .carousel-inner .mod3{
+    /* background-color: #fff;  */
+    position: absolute;
+    left: 300px;
+    top: 580px;
+    z-index: 2px;
+}
+
+.carousel .carousel-inner .mod3-3{
+    /* background-color: #fff;  */
+    position: absolute;
+    left: 950px;
+    top: 540px;
+    z-index: 2px;
+}
+
+.carousel .carousel-inner .mod3-3-3{
+    /* background-color: #fff;  */
+    position: absolute;
+    left: 1550px;
+    top: 590px;
+    z-index: 2px;
+}
+
+.carousel .carousel-inner .mod4{
+    /* background-color: #fff;  */
+    position: absolute;
+    left: 550px;
+    top: 540px;
+    z-index: 2px;
+}
+
+.carousel .carousel-inner .mod4-4{
+    /* background-color: #fff;  */
+    position: absolute;
+    left: 1290px;
+    top: 590px;
+    z-index: 2px;
 }
