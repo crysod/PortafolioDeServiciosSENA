@@ -25,6 +25,7 @@ body{
 span > strong{
     font-family: 'Work Sans', sans-serif;
     font-size: 24px;
+   
 }
 
 span > p{
@@ -80,6 +81,7 @@ span > p{
 .modal-title{
     color: #00324d;
     font-family: 'Work Sans', sans-serif;
+    
 }
 
 .cont{
@@ -90,6 +92,7 @@ span > p{
     transition: 0.5;
     transition: transform 400ms;
     object-fit: cover;
+    
 }
 
 .card-img-top:hover{
@@ -104,12 +107,12 @@ tool-tip{
 
     text-shadow: #7c7c7c 1px 0 10px;
 
-    padding: .5rem 1rem;
-    font-size: 24px;
+    padding: .5rem 5rem;
+    font-size: 50px;
     border-radius: 8px;
 
     /* top: 100%; */
-    left: 15.5%;
+    left:  20.2%;
 
     opacity: 0;
     transition: opacity .3s ease-overflow;
@@ -131,8 +134,8 @@ tool-tip .tooltip{
 
     text-shadow: #7c7c7c 1px 0 10px;
 
-    padding: .5rem 1rem;
-    font-size: 24px;
+    padding: .5rem 5rem;
+    font-size: 50px;
     border-radius: 8px;
 
     opacity: 0;
