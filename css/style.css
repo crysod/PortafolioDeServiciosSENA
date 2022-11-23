@@ -64,11 +64,24 @@
         color: #cb7766;
     }
 
-    .btn{
+    div > a.btn{
         color: #fff;
         background-color:#39a900;
     }
-    .btn:hover{
+        
+    
+    div > a.btn:hover{
+        color: #fff;
+        background-color: #39a933;
+    }
+
+    div > button.btn{
+        color: #fff;
+        background-color:#39a900;
+    }
+        
+    
+    div > button.btn:hover{
         color: #fff;
         background-color: #39a933;
     }
@@ -148,11 +161,6 @@
 
     :has(> tool-tip):hover tool-tip{
         opacity: 1;
-    }
-
-    .carousel img{
-        width: 100%;
-        height: auto;
     }
 
     .carousel{
